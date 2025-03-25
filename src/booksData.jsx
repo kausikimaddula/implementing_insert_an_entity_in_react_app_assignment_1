@@ -28,20 +28,7 @@ const books = [
     coverImage:
       "https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg",
   },
-  
   // Add more books as needed
-
-  
-function BookCard({ title, author, description, coverImage }) {
-  return (
-    <div style={styles.card}>
-      <img src={coverImage} alt={title} style={styles.image} />
-      <h3>{title}</h3>
-      <p><strong>Author:</strong> {author}</p>
-      <p>{description}</p>
-    </div>
-  );
-}
 ];
 
 export default books;
